@@ -6,7 +6,26 @@
 
 This Database Project presents a robust and user-friendly way to to simplify and manage the appointment booking process for a clinic. It provides a comprehensive platform for patients to easily schedule appointments with doctors, and for clinic staff to efficiently manage schedules, patient records, and payments.
 
-**Key Features:**
+
+**Key Features**
+
+The database contains the following tables. 
+- Patients; To store patients data.
+- Doctor; has details about the doctors.
+- Services; stores data about services offered at the clinic. 
+- Tiime Slots; time allocated for the treatments. 
+- Appointments; store doctor appointment details. 
+- Staff; stores staff data. 
+- Users; stores user data for authentication and authorisation.
+- Payments; contains details about payments made at the clinic.
+- Insurance Providers; stores data about insurance service providers. 
+- Patient Insurance; contains details about patients' insurance.
+- Rooms; stores data about rooms. 
+- Appointment rooms; contains appointment rooms data. 
+- Prescriptions; contains details about patients' prescription.
+- Medical records; contains details about patients medical records. 
+
+**Functionalities**
 
 * **Patient Self-Service Booking:** Allows patients to view doctor availability and book appointments online.
 * **Doctor Schedule Management:** Enables doctors to view and manage their appointment schedules.
