@@ -1,4 +1,4 @@
-# 🏥 A Streamlined Clinic Booking System.git 
+# 🏥 A Streamlined Clinic Booking System.
 
 [![ERD](link_to_your_erd_image_or_url)](Your ERD Link/Image Alt Text)
 
