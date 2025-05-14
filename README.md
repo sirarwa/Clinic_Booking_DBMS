@@ -1,4 +1,4 @@
-# 🏥 ClinicFlow: Streamlined Clinic Booking System
+# 🏥 Clinic Booking System: Streamlined Clinic Booking System
 
 [![ERD](link_to_your_erd_image_or_url)](Your ERD Link/Image Alt Text)
 
@@ -72,14 +72,14 @@ If you are providing only the SQL schema for others to build upon:
 1.  **Ensure Database Installation:** Make sure you have a compatible SQL database system installed (e.g., MySQL, PostgreSQL).
 2.  **Access Database Client:** Open your preferred SQL client (e.g., MySQL Workbench, pgAdmin, DBeaver).
 3.  **Connect to the Server:** Establish a connection to your database server.
-4.  **Create a Database:** If you haven't already, create a new database for ClinicFlow:
+4.  **Create a Database:** If you haven't already, create a new database for the Clinic Booking System:
     ```sql
-    CREATE DATABASE clinicflow;
+    CREATE DATABASE Clinic_Booking;
     -- Or your preferred database name
     ```
 5.  **Select the Database:** Select the newly created database:
     ```sql
-    USE clinicflow;
+    USE Clinic_Booking;
     -- Or your preferred database name
     ```
 6.  **Import the SQL File:** Execute the SQL script to create the tables and their constraints. This can usually be done through the "Run SQL Script" or similar option in your database client.
