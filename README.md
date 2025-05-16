@@ -1,4 +1,4 @@
-# 🏥 A Streamlined Clinic Booking System.git 
+# 🏥 A Streamlined Clinic Booking System.
 
 [![ERD](link_to_your_erd_image_or_url)](Your ERD Link/Image Alt Text)
 
@@ -106,8 +106,6 @@ If you are providing only the SQL schema for others to build upon:
 ## 🖼️ Entity Relationship Diagram (ERD)
 
 [Click here to view the Entity Relationship Diagram](link_to_your_erd_image_or_url)
-
-*Alternatively, you can embed the image directly in the README if it's a manageable size:*
 
 ```markdown
 ![Entity Relationship Diagram](link_to_your_erd_image_or_url)
