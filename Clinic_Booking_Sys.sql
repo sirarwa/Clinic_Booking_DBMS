@@ -82,7 +82,7 @@ CREATE TABLE Payments (
     payment_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     amount DECIMAL(10, 2) NOT NULL,
     payment_method VARCHAR(50),
-    status VARCHAR(20) DEFAULT 'Pending', -- e.g., Pending, Paid, Refunded
+    status VARCHAR(20) DEFAULT 'Pending', -- For instance,Pending, Paid, Refunded
     FOREIGN KEY (appointment_id) REFERENCES Appointments(appointment_id)
 );
 
