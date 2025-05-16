@@ -4,12 +4,12 @@
 
 ## 🌟 Description
 
-This Database Project presents a robust and user-friendly way to to simplify and manage the appointment booking process for a clinic. It provides a comprehensive platform for patients to easily schedule appointments with doctors, and for clinic staff to efficiently manage schedules, patient records, and payments.
+This Database Design Project presents a robust way to to simplify and manage the appointment booking process for a clinic. It simulates a comprehensive platform where patients can easily schedule appointments with doctors, the clinic staff can efficiently manage schedules, patient records, and payments.
 
 
 **Key Features**
 
-The database contains the following tables. 
+The database is structured in the following tables. 
 - Patients; To store patients data.
 - Doctor; has details about the doctors.
 - Services; stores data about services offered at the clinic. 
@@ -27,8 +27,8 @@ The database contains the following tables.
 
 **Functionalities**
 
-* **Patient Self-Service Booking:** Allows patients to view doctor availability and book appointments online.
-* **Doctor Schedule Management:** Enables doctors to view and manage their appointment schedules.
+* **Patient Self-Service Booking:** This system can allow patients to view doctor availability and book appointments online.
+* **Doctor Schedule Management:** Can enable doctors to view and manage their appointment schedules.
 * **Staff Administration:** Provides tools for clinic staff to manage appointments, patients, doctors, services, and billing.
 * **Comprehensive Data Management:** Securely stores and manages patient information, medical records, and appointment history.
 * **Payment Processing:** Facilitates the recording and tracking of patient payments.
@@ -40,55 +40,7 @@ The database contains the following tables.
 
 To get the project up and running, follow these steps:
 
-### Option 1: Running the Project (If you have a runnable application)
-
-1.  **Clone the Repository:**
-    ```bash
-    git clone https://github.com/sirarwa/Clinic_Booking_DBMS
-    cd Clinic_Booking_DBMS
-    ```
-2.  **Install Dependencies:** (Specify the language/framework and its package manager)
-    * **For Python (e.g., Django, Flask):**
-        ```bash
-        pip install -r requirements.txt
-        ```
-    * **For Node.js (e.g., Express):**
-        ```bash
-        npm install
-        # or
-        yarn install
-        ```
-3.  **Database Setup:**
-    * Ensure you have a compatible database system installed (e.g., MySQL, PostgreSQL).
-    * Configure the database connection details in your project's configuration file (e.g., `config.ini`, `.env`).
-    * Run database migrations to create the necessary tables:
-        * **For Django:**
-            ```bash
-            python manage.py migrate
-            ```
-        * **For other frameworks:** Refer to their specific documentation for database migrations.
-4.  **Run the Application:**
-    * **For Python (Django):**
-        ```bash
-        python manage.py runserver
-        ```
-    * **For Python (Flask):**
-        ```bash
-        python app.py
-        ```
-    * **For Node.js (Express):**
-        ```bash
-        npm start
-        # or
-        yarn start
-        ```
-5.  **Access the Application:** Open your web browser and navigate to the address specified by your application (e.g., `http://localhost:8000`).
-
-### Option 2: Importing the SQL Schema
-
-If you are providing only the SQL schema for others to build upon:
-
-1.  **Ensure Database Installation:** Make sure you have a compatible SQL database system installed (e.g., MySQL, PostgreSQL).
+1.  **Ensure Database Installation:** Make sure you have a compatible SQL database system installed (MySQL).
 2.  **Access Database Client:** Open your preferred SQL client (e.g., MySQL Workbench, pgAdmin, DBeaver).
 3.  **Connect to the Server:** Establish a connection to your database server.
 4.  **Create a Database:** If you haven't already, create a new database for the Clinic Booking System:
